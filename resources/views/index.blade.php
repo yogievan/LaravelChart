@@ -8,10 +8,15 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
+    {{-- test --}}
+    {{-- @php
+        print_r($transaksi_pribadi);
+    @endphp --}}
+
     <div class="container px-4 mx-auto">
         {{-- with tailwind css --}}
         <div class="p-6 m-20 bg-white rounded shadow">
-            <p>Transaksi Bulanan</p>
+            {{-- <p>Transaksi Bulanan</p> --}}
             {!! $chart->container() !!}
         </div>
     
